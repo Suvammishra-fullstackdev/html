@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <body>
+           <style>
+                html, body {
+                     height: 100%;
+                }
+                html {
+                   display: table;
+                   margin: auto;
+                }
+                body {
+                   display: table-cell;
+                   vertical-align: middle;
+                }
+           </style>
+            <form align = "center">
+                <div>
+                  <h1>TCS Registration form</h1>
+                  <style> body{line-height: normal};</style>
+                  <img src="TCS-logo.png" alt="TCS" style="width:200px;" class="center";>
+                </div>
+                </form>
+            <form>
+                <div>
+                  <label><h3><b>Name</b></h3></label>  
+                  <select>
+                    <option value="" selected>Title*</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                  </select>
+                  <input type="text" placeholder="First*" >
+                  <input type="text" placeholder="Middle">
+                  <input type="text" placeholder="Surname*"><br>
+
+                  <label><h3><b>Date Of Birth</b></h3></label>
+                  <select>
+                    <option value="" selected>Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                  <select>
+                    <option value="" selected>Month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                  </select>
+                  <select>
+                    <option value="" selected>Year</option>
+                    <option value="2k19">2019</option>
+                    <option value="2k20">2020</option>
+                  </select>
+
+                  <label><h3><b>Gender*</b></h3></label> 
+                  <select>
+                    <option value="" selected>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                  </select>
+                  
+                  <label><h3><b>Email ID*</b></h3></label> 
+                  <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                  
+
+                  <label><h3><b>Mobile Number*</b></h3></label>
+                  <select>
+                    <option value="" selected>+91</option>
+                    <option value="+91">+91</option>
+                    <option value="+00">+00</option>
+                  </select>
+                  <form action="" method="post" id="cusCreate" autocomplete="off">
+                    <input type="tel" name="telphone" placeholder="888 888 8888" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12"  title="Ten digits code" required/>    
+                    <label style="font-size:9px;padding-left:20px"> Eg : 081 222 2224  </label> 
+                       
+                  </form>
+
+                  <label><h3><b>Institute Name*</b></h3></label>
+                  <input type="text" placeholder="Institute Name">
+                  <label><h3><b>Qualification*</b></h3></label>
+                  <select>
+                    <option value="" selected>Select</option>
+                    <option value="Btech">B.Tech</option>
+                    <option value="Mtech">M.Tech</option>
+                    <option value="Bsc">Bsc</option>
+                    <option value="Msc">Msc</option>
+                  </select>
+
+                  <label><h3><b>Year of Passing </b>(for highest qualification)*</h3></label>
+                  <select>
+                    <option value="" selected>Select</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                  </select>
+
+                  <label><h3><b>Nearest Test Location*</b></h3></label>
+                  <select>
+                    <option value="" selected>Select</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Vizag">Vizag</option>
+                    <option value="Chirala">Chirala</option>
+                  </select>
+
+                  <label><h3><b>Enter password*</b><a href="https://support.google.com/a/answer/139399?hl=en" >as per GOOGLE pwd policy</a></h3></label>
+                  <input type="password" placeholder="Enter password here" id="pwd">
+
+                  <label><h3><b>Re-enter password*</b></h3></label>
+                  <input type="password" placeholder="Confirm password" id="pwd">
+
+
+                  <label><h3><b>Select Security Question*</b></h3></label>
+                  <select>
+                    <option value="" selected>Select</option>
+                    <option value="What is your Birthday">What is your Birthday</option>
+                    <option value="What is your Pet's name">What is your pet's name</option>
+                    <option value="What is your Birthplace">What is your Birthplace</option>
+                  </select>
+
+
+                  <label><h3><b>Answer to security question*</b></h3></label>
+                  <input type="text" id="text" ><br><br>
+                  <input type="button" value="submit" id="submit">
+                  <input type="button" value="cancel" id="cancel">
+                </div>
+             </form>
+              
+        </body>
+    </head>
+</html>
